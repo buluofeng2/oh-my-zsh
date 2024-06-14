@@ -109,9 +109,5 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias ll='ll -a'
 
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
-fi
 
 alias aws="/mnt/lustre/songfaxing/awscli/bin/aws"
